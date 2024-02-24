@@ -1,4 +1,5 @@
 -- Groups by Rating -- 
+
 SELECT 
     CASE
         WHEN rating BETWEEN 1 AND 1.99 THEN '1 Star'
