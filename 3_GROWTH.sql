@@ -1,4 +1,5 @@
 -- Growth of LetsMeet over the years --
+
 SELECT 
     JOIN_YR, COUNT(JOIN_YR)
 FROM
@@ -93,6 +94,6 @@ FROM
         GRP_MEMBER
     WHERE
         YEAR(joined) = 2017
-    GROUP BY MEMBER_ID) MONTH
+    GROUP BY (MEMBER_ID) MONTH
 GROUP BY JOIN_MONTH
 ORDER BY JOIN_MONTH;
