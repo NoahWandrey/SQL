@@ -1,7 +1,5 @@
--- Answer the questions from the Sales team in this file.
-/*
 --ACTIVE CITIES--
-1. WHAT CITIES HAVE ACTIVE MEMBERS? */
+1. */WHAT CITIES HAVE ACTIVE MEMBERS? */
 
 SELECT DISTINCT
     city
